@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            <%=locals.title%>
+        </title>
+        
+    </head>
+    <body>
+        <h1>Playground</h1>
+        <ul>
+            <% for(let i=0;i<6;i++){ %>
+                <li>
+                    <%= i %>
+                </li>
+            <%}%>
+        </ul>
+        <%if(true){%>
+            <h1> Well It is true</h1>
+        <%}else{%>
+            <h1>I'm so sorry ;)</h1>
+        <%}%>
+    </body>
+</html>
